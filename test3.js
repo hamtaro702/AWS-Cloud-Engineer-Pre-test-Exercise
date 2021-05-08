@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-function hiremeplease() {
+function pleasehireme() {
   fetch("https://api.publicapis.org/categories")
     .then(function (response) {
       return response.text(); // แปลงข้อมูลที่ได้เป็น string
@@ -19,4 +19,4 @@ function hiremeplease() {
 
     });
 }
-hiremeplease();
+pleasehireme();
